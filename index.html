@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berke - Portfolio</title>
+    <style>
+        /* CSS kodları index.html ile tamamen aynı, tasarım bütünlüğü için değiştirmiyoruz */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .lang-switch a {
+            color: white;
+            border: 1px solid white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+        .lang-switch a:hover {
+            background-color: white;
+            color: #2c3e50;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #bdc3c7;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            color: #2c3e50;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 2rem;
+        }
+        .skill-tag {
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-card h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 3rem;
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="lang-switch">
+            <a href="index.html">TR | Türkçe</a>
+        </div>
+        <h1>Hello, I'm Berke</h1>
+        <p>Kastamonu University | Computer Programming | Software Developer & Digital Content Creator</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>I develop projects in software development, database management, and web design. I am also actively engaged in creative processes such as digital media production and animation using artificial intelligence tools.</p>
+        </section>
+
+        <section>
+            <h2>Technologies & Skills</h2>
+            <div class="skills">
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">HTML & CSS</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Kali Linux</span>
+                <span class="skill-tag">Adobe Dreamweaver</span>
+                <span class="skill-tag">AI Media Production</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects & Experience</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>TEKNOFEST 2026 - AI in Health</h3>
+                    <p>Project reports and analytical studies submitted via the T3 KYS system as part of a project developed on AI integration in healthcare.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Sirius Akademi Promotions</h3>
+                    <p>Designed AI-supported video advertisements, logo variations, and digital marketing campaigns for the academy.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Digital Media & YouTube</h3>
+                    <p><strong>TinySparks:</strong> 3D animated educational content for children.<br>
+                    <strong>Urban Echoes:</strong> Creation and management of a global Trap and UK Drill music channel.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>You can follow me on <a href="https://github.com/KULLANICI_ADIN" target="_blank">GitHub</a> to get in touch.</p>
+    </footer>
+
+</body>
+</html>

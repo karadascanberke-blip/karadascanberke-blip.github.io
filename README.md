@@ -1,1 +1,0 @@
-# karadascanberke.github.io
